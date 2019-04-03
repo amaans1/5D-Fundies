@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>News</title>
+<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: News;
+	}
+	#News * {
+		margin: 0;
+		padding: 0;
+	}
+	#News {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1024px;
+		height: 678px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: News;
+		--web-view-id: News;
+		--web-enable-deep-linking: true;
+	}
+	#Group_2 {
+		opacity: 1;
+		position: absolute;
+		width: 446.743px;
+		height: 200.445px;
+		left: 46.719px;
+		top: 169.734px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		opacity: 1;
+		fill: rgba(201,41,41,0.141);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 446.743px;
+		height: 200.445px;
+		left: 0px;
+		top: 0px;
+	}
+	#Self_Driving_Cars {
+		opacity: 1;
+		position: absolute;
+		left: 14.411px;
+		top: 13.101px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 248px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(201,41,41,1);
+	}
+	#Tesla_unveils_a_new_feature_in {
+		opacity: 1;
+		position: absolute;
+		left: 10.481px;
+		top: 103.498px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 373px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(112,112,112,1);
+	}
+	#ID800px_CNN_svg {
+		opacity: 1;
+		fill: url(#ID800px_CNN_svg_A1_Rectangle_14_pattern);
+	}
+	.ID800px_CNN_svg {
+		position: absolute;
+		overflow: visible;
+		width: 81.226px;
+		height: 37.77px;
+		left: 357.656px;
+		top: 6.551px;
+	}
+	#Menu {
+		opacity: 1;
+		position: absolute;
+		width: 1023.5px;
+		height: 91.979px;
+		left: 0.5px;
+		top: 16px;
+		overflow: visible;
+	}
+	#Path_1 {
+		opacity: 1;
+		fill: rgba(0,0,0,0);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_1 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 91.979px;
+		left: 0px;
+		width: 1023.5px;
+		height: 1px;
+	}
+	#Woke_ {
+		opacity: 1;
+		position: absolute;
+		left: 459.895px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(118,189,242,1);
+	}
+	#News_ {
+		opacity: 1;
+		position: absolute;
+		left: 289.801px;
+		top: 57.587px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(201,41,41,1);
+	}
+	#Memes_ {
+		opacity: 1;
+		position: absolute;
+		left: 399.109px;
+		top: 55.987px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(229,114,15,1);
+	}
+	#Videos_ {
+		opacity: 1;
+		position: absolute;
+		left: 528.68px;
+		top: 57.587px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(72,201,132,1);
+	}
+	#Vocab_ {
+		opacity: 1;
+		position: absolute;
+		left: 652.385px;
+		top: 57.587px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(139,42,199,1);
+	}
+	#Path_2 {
+		opacity: 1;
+		fill: rgba(0,0,0,0);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_2 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 49.322px;
+		left: 0px;
+		width: 1023.5px;
+		height: 1px;
+	}
+	#Group_5 {
+		opacity: 1;
+		position: absolute;
+		width: 447.296px;
+		height: 200.693px;
+		left: 531.603px;
+		top: 409.67px;
+		overflow: visible;
+	}
+	#Rectangle_20 {
+		opacity: 1;
+		fill: rgba(201,41,41,0.141);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_20 {
+		position: absolute;
+		overflow: visible;
+		width: 447.296px;
+		height: 200.693px;
+		left: 0px;
+		top: 0px;
+	}
+	#New_iPhones {
+		opacity: 1;
+		position: absolute;
+		left: 14.429px;
+		top: 13.117px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 201px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(201,41,41,1);
+	}
+	#Apple_just_announced_new__phon {
+		opacity: 1;
+		position: absolute;
+		left: 10.494px;
+		top: 103.626px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 335px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(112,112,112,1);
+	}
+	#ID1280px_TechCrunch_logo_svg {
+		opacity: 1;
+		fill: url(#ID1280px_TechCrunch_logo_svg_A1_Rectangle_17_pattern);
+	}
+	.ID1280px_TechCrunch_logo_svg {
+		position: absolute;
+		overflow: visible;
+		width: 49.845px;
+		height: 24.923px;
+		left: 389.58px;
+		top: 7.87px;
+	}
+	#Group_6 {
+		opacity: 1;
+		position: absolute;
+		width: 446.743px;
+		height: 200.445px;
+		left: 45.346px;
+		top: 409.918px;
+		overflow: visible;
+	}
+	#Rectangle_1_A1_Rectangle_18 {
+		opacity: 1;
+		fill: rgba(201,41,41,0.141);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1_A1_Rectangle_18 {
+		position: absolute;
+		overflow: visible;
+		width: 446.743px;
+		height: 200.445px;
+		left: 0px;
+		top: 0px;
+	}
+	#New_Policies {
+		opacity: 1;
+		position: absolute;
+		left: 14.411px;
+		top: 13.101px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 193px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(201,41,41,1);
+	}
+	#See_the_new_policies_that_the_ {
+		opacity: 1;
+		position: absolute;
+		left: 10.481px;
+		top: 103.498px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 364px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(112,112,112,1);
+	}
+	#wall_street_journal_logo1 {
+		opacity: 1;
+		fill: url(#wall_street_journal_logo1_A1_Rectangle_20_pattern);
+	}
+	.wall_street_journal_logo1 {
+		position: absolute;
+		overflow: visible;
+		width: 72.717px;
+		height: 39.267px;
+		left: 366.492px;
+		top: 8.508px;
+	}
+	#Group_7 {
+		opacity: 1;
+		position: absolute;
+		width: 446.743px;
+		height: 200.445px;
+		left: 532.257px;
+		top: 169.734px;
+		overflow: visible;
+	}
+	#Rectangle_1_A1_Rectangle_21 {
+		opacity: 1;
+		fill: rgba(201,41,41,0.141);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1_A1_Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 446.743px;
+		height: 200.445px;
+		left: 0px;
+		top: 0px;
+	}
+	#Aoun_s_New_Ideas {
+		opacity: 1;
+		position: absolute;
+		left: 14.411px;
+		top: 13.101px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 265px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(201,41,41,1);
+	}
+	#Joseph_Aoun__president_of_NEU_ {
+		opacity: 1;
+		position: absolute;
+		left: 10.481px;
+		top: 87.791px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 394px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(112,112,112,1);
+	}
+	#ID3000px_TMZ_Logo_svg {
+		opacity: 1;
+		fill: url(#ID3000px_TMZ_Logo_svg_A1_Rectangle_23_pattern);
+	}
+	.ID3000px_TMZ_Logo_svg {
+		position: absolute;
+		overflow: visible;
+		width: 75.262px;
+		height: 31.209px;
+		left: 363.875px;
+		top: 8.508px;
+	}
+</style>
+</head>
+<body>
+<div id="News">
+	<div id="Group_2">
+		<svg class="Rectangle_1">
+			<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="446.743" height="200.445">
+			</rect>
+		</svg>
+		<div id="Self_Driving_Cars">
+			<span>Self Driving Cars</span>
+		</div>
+		<div id="Tesla_unveils_a_new_feature_in">
+			<span>Tesla unveils a new feature in <br/>their vehicle lineup. </span>
+		</div>
+		<svg class="ID800px_CNN_svg">
+			<pattern elementId="ID800px_CNN_svg_A1_Rectangle_14" id="ID800px_CNN_svg_A1_Rectangle_14_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="ID800px_CNN_svg_A1_Rectangle_14_pattern.png" xlink:href="ID800px_CNN_svg_A1_Rectangle_14_pattern.png"></image>
+			</pattern>
+			<rect id="ID800px_CNN_svg" rx="0" ry="0" x="0" y="0" width="81.226" height="37.77">
+			</rect>
+		</svg>
+	</div>
+	<div id="Menu">
+		<svg viewBox="0 0 1023.5 1" class="Path_1">
+			<path id="Path_1" d="M 0 0 L 597.7079467773438 0 L 1023.499938964844 0">
+			</path>
+		</svg>
+		<a href="index.html"><div id="Woke_">
+			<span>Woke!</span>
+		</div></a>
+		<a href="News.html"> <div id="News_">
+			<span>News!</span>
+		</div></a>
+		<a href="Memes.html"> <div id="Memes_">
+			<span>Memes!</span>
+		</div></a>
+		<a href="Videos.html"> <div id="Videos_">
+			<span>Videos!</span>
+		</div></a>
+		<a href="Vocab.html"> <div id="Vocab_">
+			<span>Vocab!</span>
+		</div></a>
+		<svg viewBox="0 0 1023.5 1" class="Path_2">
+			<path id="Path_2" d="M 0 0 L 597.7079467773438 0 L 1023.499938964844 0">
+			</path>
+		</svg>
+	</div>
+	<div id="Group_5">
+		<svg class="Rectangle_20">
+			<rect id="Rectangle_20" rx="0" ry="0" x="0" y="0" width="447.296" height="200.693">
+			</rect>
+		</svg>
+		<div id="New_iPhones">
+			<span>New iPhones</span>
+		</div>
+		<div id="Apple_just_announced_new__phon">
+			<span>Apple just announced new <br/>phones. See them here. </span>
+		</div>
+		<svg class="ID1280px_TechCrunch_logo_svg">
+			<pattern elementId="ID1280px_TechCrunch_logo_svg_A1_Rectangle_17" id="ID1280px_TechCrunch_logo_svg_A1_Rectangle_17_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="ID1280px_TechCrunch_logo_svg_A1_Rectangle_17_pattern.png" xlink:href="ID1280px_TechCrunch_logo_svg_A1_Rectangle_17_pattern.png"></image>
+			</pattern>
+			<rect id="ID1280px_TechCrunch_logo_svg" rx="0" ry="0" x="0" y="0" width="49.845" height="24.923">
+			</rect>
+		</svg>
+	</div>
+	<div id="Group_6">
+		<svg class="Rectangle_1_A1_Rectangle_18">
+			<rect id="Rectangle_1_A1_Rectangle_18" rx="0" ry="0" x="0" y="0" width="446.743" height="200.445">
+			</rect>
+		</svg>
+		<div id="New_Policies">
+			<span>New Policies</span>
+		</div>
+		<div id="See_the_new_policies_that_the_">
+			<span>See the new policies that the <br/>President has created. </span>
+		</div>
+		<svg class="wall_street_journal_logo1">
+			<pattern elementId="wall_street_journal_logo1_A1_Rectangle_20" id="wall_street_journal_logo1_A1_Rectangle_20_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="wall_street_journal_logo1_A1_Rectangle_20_pattern.png" xlink:href="wall_street_journal_logo1_A1_Rectangle_20_pattern.png"></image>
+			</pattern>
+			<rect id="wall_street_journal_logo1" rx="0" ry="0" x="0" y="0" width="72.717" height="39.267">
+			</rect>
+		</svg>
+	</div>
+	<div id="Group_7">
+		<svg class="Rectangle_1_A1_Rectangle_21">
+			<rect id="Rectangle_1_A1_Rectangle_21" rx="0" ry="0" x="0" y="0" width="446.743" height="200.445">
+			</rect>
+		</svg>
+		<div id="Aoun_s_New_Ideas">
+			<span>Aoun’s New Ideas</span>
+		</div>
+		<div id="Joseph_Aoun__president_of_NEU_">
+			<span>Joseph Aoun, president of NEU<br/>has some new ideas for college <br/>goers</span>
+		</div>
+		<svg class="ID3000px_TMZ_Logo_svg">
+			<pattern elementId="ID3000px_TMZ_Logo_svg_A1_Rectangle_23" id="ID3000px_TMZ_Logo_svg_A1_Rectangle_23_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="ID3000px_TMZ_Logo_svg_A1_Rectangle_23_pattern.png" xlink:href="ID3000px_TMZ_Logo_svg_A1_Rectangle_23_pattern.png"></image>
+			</pattern>
+			<rect id="ID3000px_TMZ_Logo_svg" rx="0" ry="0" x="0" y="0" width="75.262" height="31.209">
+			</rect>
+		</svg>
+	</div>
+</div>
+</body>
+</html>
