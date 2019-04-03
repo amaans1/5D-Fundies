@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Woke! Website</title>
+<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+<style id="applicationStylesheet" type="text/css">
+	@font-face {
+    font-family: 'Asap', sans-serif; /*a name to be used later*/
+}
+	a { color: inherit;}
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: index;
+	}
+	#index * {
+		margin: 0;
+		padding: 0;
+	}
+	#index {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1024px;
+		height: 678px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: index;
+		--web-view-id: index;
+		--web-enable-deep-linking: true;
+	}
+	#BobBox {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.BobBox {
+		position: absolute;
+		overflow: visible;
+		width: 195.018px;
+		height: 181.937px;
+		left: 59.614px;
+		top: 392.831px;
+	}
+	#SimplyBox {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.SimplyBox {
+		position: absolute;
+		overflow: visible;
+		width: 193.829px;
+		height: 181.937px;
+		left: 272.469px;
+		top: 392.831px;
+	}
+	#Newsflash {
+		opacity: 1;
+		position: absolute;
+		width: 405.522px;
+		height: 181.95px;
+		left: 59.614px;
+		top: 149.888px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		opacity: 1;
+		fill: rgba(201,41,41,0.141);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 405.522px;
+		height: 181.95px;
+		left: 0px;
+		top: 0px;
+	}
+	#Self_Driving_Cars {
+		opacity: 1;
+		position: absolute;
+		left: 13.081px;
+		top: 11.892px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 219px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(201,41,41,1);
+	}
+	#Tesla_unveils_a_new_feature_in {
+		opacity: 1;
+		position: absolute;
+		left: 9.514px;
+		top: 93.948px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 333px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(112,112,112,1);
+	}
+	#ID800px_CNN_svg {
+		opacity: 1;
+		fill: url(#ID800px_CNN_svg_A0_Rectangle_5_pattern);
+	}
+	.ID800px_CNN_svg {
+		position: absolute;
+		overflow: visible;
+		width: 73.731px;
+		height: 34.285px;
+		left: 324.656px;
+		top: 5.946px;
+	}
+	#BobMeme {
+		opacity: 1;
+		fill: url(#BobMeme_A0_Rectangle_7_pattern);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.BobMeme {
+		position: absolute;
+		overflow: visible;
+		width: 195.018px;
+		height: 181.937px;
+		left: 59.614px;
+		top: 392.881px;
+	}
+	#SimplyMeme {
+		opacity: 1;
+		fill: url(#SimplyMeme_A0_Rectangle_9_pattern);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.SimplyMeme {
+		position: absolute;
+		overflow: visible;
+		width: 193.829px;
+		height: 181.937px;
+		left: 276.033px;
+		top: 392.881px;
+	}
+	#Video {
+		opacity: 1;
+		position: absolute;
+		width: 406.117px;
+		height: 267.573px;
+		left: 557.441px;
+		top: 149.888px;
+		overflow: visible;
+	}
+	#Rectangle_1_A0_Rectangle_10 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1_A0_Rectangle_10 {
+		position: absolute;
+		overflow: visible;
+		width: 405.522px;
+		height: 267.573px;
+		left: 0px;
+		top: 0px;
+	}
+	#Line_4 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4 {
+		overflow: visible;
+		position: absolute;
+		top: 208.707px;
+		left: 0.595px;
+		width: 405.522px;
+		height: 1px;
+	}
+	#Group_2 {
+		opacity: 1;
+		position: absolute;
+		width: 51.136px;
+		height: 60.65px;
+		left: 177.787px;
+		top: 73.137px;
+		overflow: visible;
+	}
+	#Line_7 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_7 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 3px;
+		height: 59.461px;
+	}
+	#Line_8 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_8 {
+		overflow: visible;
+		position: absolute;
+		top: 28.541px;
+		left: 0px;
+		width: 52.731px;
+		height: 34.649px;
+	}
+	#Line_9 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_9 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 52.644px;
+		height: 32.324px;
+	}
+	#Keyboard_Cat {
+		opacity: 1;
+		position: absolute;
+		left: 8.324px;
+		top: 212.869px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(72,201,132,1);
+	}
+	#Yet_another_video_of_a_cat_ {
+		opacity: 1;
+		position: absolute;
+		left: 8.324px;
+		top: 241.41px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 128px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(112,112,112,1);
+	}
+	#Menu {
+		opacity: 1;
+		position: absolute;
+		width: 1023.5px;
+		height: 91.979px;
+		left: 0.5px;
+		top: 16px;
+		overflow: visible;
+	}
+	#Path_1 {
+		opacity: 1;
+		fill: rgba(0,0,0,0);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_1 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 91.979px;
+		left: 0px;
+		width: 1023.5px;
+		height: 1px;
+	}
+	#Woke_ {
+		opacity: 1;
+		position: absolute;
+		left: 459.895px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(118,189,242,1);
+	}
+	#News_ {
+		opacity: 1;
+		position: absolute;
+		left: 289.801px;
+		top: 57.587px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(201,41,41,1);
+	}
+	#Memes_ {
+		opacity: 1;
+		position: absolute;
+		left: 399.109px;
+		top: 55.987px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(229,114,15,1);
+	}
+	#Videos_ {
+		opacity: 1;
+		position: absolute;
+		left: 528.679px;
+		top: 57.587px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(72,201,132,1);
+	}
+	#Vocab_ {
+		opacity: 1;
+		position: absolute;
+		left: 652.385px;
+		top: 57.587px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(139,42,199,1);
+	}
+	#Path_2 {
+		opacity: 1;
+		fill: rgba(0,0,0,0);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_2 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 49.322px;
+		left: 0px;
+		width: 1023.5px;
+		height: 1px;
+	}
+	#Vocabflash {
+		opacity: 1;
+		position: absolute;
+		width: 405.522px;
+		height: 181.95px;
+		left: 558.035px;
+		top: 451.681px;
+		overflow: visible;
+	}
+	#Rectangle_1_A0_Rectangle_11 {
+		opacity: 1;
+		fill: rgba(139,42,199,0.133);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1_A0_Rectangle_11 {
+		position: absolute;
+		overflow: visible;
+		width: 405.522px;
+		height: 181.95px;
+		left: 0px;
+		top: 0px;
+	}
+	#GOAT {
+		opacity: 1;
+		position: absolute;
+		left: 17.838px;
+		top: 11.892px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(139,42,199,1);
+	}
+	#Acronym_for_Greatest_Of_All__T {
+		opacity: 1;
+		position: absolute;
+		left: 15.46px;
+		top: 89.191px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 311px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(112,112,112,1);
+	}
+</style>
+</head>
+<body>
+<div id="index">
+	<a href="Memes.html"><svg class="BobBox">
+		<rect id="BobBox" rx="0" ry="0" x="0" y="0" width="195.018" height="181.937">
+		</rect>
+	</svg></a>
+	<a href="Memes.html"><svg class="SimplyBox">
+		<rect id="SimplyBox" rx="0" ry="0" x="0" y="0" width="193.829" height="181.937">
+		</rect>
+	</svg></a>
+	<a href="News.html"> <div id="Newsflash">
+		<svg class="Rectangle_1">
+			<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="405.522" height="181.95">
+			</rect>
+		</svg>
+		<div id="Self_Driving_Cars">
+			<span>Self Driving Cars</span>
+		</div>
+		<div id="Tesla_unveils_a_new_feature_in">
+			<span>Tesla unveils a new feature in <br/>their vehicle lineup. </span>
+		</div>
+		<svg class="ID800px_CNN_svg">
+			<pattern elementId="ID800px_CNN_svg_A0_Rectangle_5" id="ID800px_CNN_svg_A0_Rectangle_5_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="ID800px_CNN_svg_A0_Rectangle_5_pattern.png" xlink:href="ID800px_CNN_svg_A0_Rectangle_5_pattern.png"></image>
+			</pattern>
+			<rect id="ID800px_CNN_svg" rx="0" ry="0" x="0" y="0" width="73.731" height="34.285">
+			</rect>
+		</svg>
+	</div></a>
+	<a href="Memes.html"> <svg class="BobMeme">
+		<pattern elementId="BobMeme_A0_Rectangle_7" id="BobMeme_A0_Rectangle_7_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="BobMeme_A0_Rectangle_7_pattern.png" xlink:href="BobMeme_A0_Rectangle_7_pattern.png"></image>
+		</pattern>
+		<rect id="BobMeme" rx="0" ry="0" x="0" y="0" width="195.018" height="181.937">
+		</rect>
+	</svg></a>
+	<a href="Memes.html"> <svg class="SimplyMeme">
+		<pattern elementId="SimplyMeme_A0_Rectangle_9" id="SimplyMeme_A0_Rectangle_9_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="SimplyMeme_A0_Rectangle_9_pattern.png" xlink:href="SimplyMeme_A0_Rectangle_9_pattern.png"></image>
+		</pattern>
+		<rect id="SimplyMeme" rx="0" ry="0" x="0" y="0" width="193.829" height="181.937">
+		</rect>
+	</svg></a>
+	<a href="Videos.html"><div id="Video">
+		<svg class="Rectangle_1_A0_Rectangle_10">
+			<rect id="Rectangle_1_A0_Rectangle_10" rx="0" ry="0" x="0" y="0" width="405.522" height="267.573">
+			</rect>
+		</svg>
+		<svg class="Line_4">
+			<path id="Line_4" d="M 0 0 L 405.5219116210938 0">
+			</path>
+		</svg>
+		<div id="Group_2">
+			<svg class="Line_7">
+				<path id="Line_7" d="M 0 0 L 0 59.46068572998047">
+				</path>
+			</svg>
+			<svg class="Line_8">
+				<path id="Line_8" d="M 51.13619613647461 0 L 0 32.10877227783203">
+				</path>
+			</svg>
+			<svg class="Line_9">
+				<path id="Line_9" d="M 0 0 L 51.13619613647461 29.73034286499023">
+				</path>
+			</svg>
+		</div>
+		<div id="Keyboard_Cat">
+			<span>Keyboard Cat</span>
+		</div>
+		<div id="Yet_another_video_of_a_cat_">
+			<span>Yet another video of a cat </span>
+		</div>
+	</div></a>
+	<div id="Menu">
+		<svg viewBox="0 0 1023.5 1" class="Path_1">
+			<path id="Path_1" d="M 0 0 L 597.7079467773438 0 L 1023.499938964844 0">
+			</path>
+		</svg>
+		<a href="index.html"><div id="Woke_">
+			<span>Woke!</span>
+		</div></a>
+		<a href="News.html"> <div id="News_">
+			<span>News!</span>
+		</div></a>
+		<a href="Memes.html"> <div id="Memes_">
+			<span>Memes!</span>
+		</div></a>
+		<a href="Videos.html"> <div id="Videos_">
+			<span>Videos!</span>
+		</div></a>
+		<a href="Vocab.html"> <div id="Vocab_">
+			<span>Vocab!</span>
+		</div></a>
+		<svg viewBox="0 0 1023.5 1" class="Path_2">
+			<path id="Path_2" d="M 0 0 L 597.7079467773438 0 L 1023.499938964844 0">
+			</path>
+		</svg>
+	</div>
+	<a href="Vocab.html"><div id="Vocabflash">
+		<svg class="Rectangle_1_A0_Rectangle_11">
+			<rect id="Rectangle_1_A0_Rectangle_11" rx="0" ry="0" x="0" y="0" width="405.522" height="181.95">
+			</rect>
+		</svg>
+		<div id="GOAT">
+			<span>GOAT</span>
+		</div>
+		<div id="Acronym_for_Greatest_Of_All__T">
+			<span>Acronym for Greatest Of All <br/>Time. </span>
+		</div>
+	</div></a>
+</div>
+</body>
+</html>

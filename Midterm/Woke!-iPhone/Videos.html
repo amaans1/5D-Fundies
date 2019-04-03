@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Videos</title>
+<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: Videos;
+	}
+	#Videos * {
+		margin: 0;
+		padding: 0;
+	}
+	#Videos {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: Videos;
+		--web-view-id: Videos;
+		--web-enable-deep-linking: true;
+	}
+	#Path_1 {
+		opacity: 1;
+		fill: rgba(0,0,0,0);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_1 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 67.5px;
+		left: 0.5px;
+		width: 375px;
+		height: 1px;
+	}
+	#Group_1 {
+		opacity: 1;
+		position: absolute;
+		width: 28px;
+		height: 20px;
+		left: 17.5px;
+		top: 24.5px;
+		overflow: visible;
+	}
+	#Line_1 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(112, 112, 112);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_1 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 32px;
+		height: 4px;
+	}
+	#Line_2 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(112, 112, 112);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		top: 10px;
+		left: 0px;
+		width: 32px;
+		height: 4px;
+	}
+	#Line_3 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(112, 112, 112);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		top: 20px;
+		left: 0px;
+		width: 32px;
+		height: 4px;
+	}
+	#Videos_ {
+		opacity: 1;
+		position: absolute;
+		left: 236px;
+		top: 26px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(72,201,132,1);
+	}
+	#Group_6 {
+		opacity: 1;
+		position: absolute;
+		width: 341.5px;
+		height: 225px;
+		left: 17px;
+		top: 89px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 341px;
+		height: 225px;
+		left: 0px;
+		top: 0px;
+	}
+	#Line_4 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4 {
+		overflow: visible;
+		position: absolute;
+		top: 175.5px;
+		left: 0.5px;
+		width: 341px;
+		height: 1px;
+	}
+	#Group_2 {
+		opacity: 1;
+		position: absolute;
+		width: 43px;
+		height: 51px;
+		left: 149.5px;
+		top: 61.5px;
+		overflow: visible;
+	}
+	#Line_7 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_7 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 3px;
+		height: 50px;
+	}
+	#Line_8 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_8 {
+		overflow: visible;
+		position: absolute;
+		top: 24px;
+		left: 0px;
+		width: 44.595px;
+		height: 29.541px;
+	}
+	#Line_9 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_9 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 44.508px;
+		height: 27.594px;
+	}
+	#Keyboard_Cat {
+		opacity: 1;
+		position: absolute;
+		left: 7px;
+		top: 179px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(72,201,132,1);
+	}
+	#Yet_another_video_of_a_cat_ {
+		opacity: 1;
+		position: absolute;
+		left: 7px;
+		top: 203px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(112,112,112,1);
+	}
+	#Group_7 {
+		opacity: 1;
+		position: absolute;
+		width: 341.5px;
+		height: 225px;
+		left: 17px;
+		top: 328px;
+		overflow: visible;
+	}
+	#Rectangle_1_A4_Rectangle_39 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1_A4_Rectangle_39 {
+		position: absolute;
+		overflow: visible;
+		width: 341px;
+		height: 225px;
+		left: 0px;
+		top: 0px;
+	}
+	#Line_4_A4_Line_24 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4_A4_Line_24 {
+		overflow: visible;
+		position: absolute;
+		top: 175.5px;
+		left: 0.5px;
+		width: 341px;
+		height: 1px;
+	}
+	#Group_2_A4_Group_13 {
+		opacity: 1;
+		position: absolute;
+		width: 43px;
+		height: 51px;
+		left: 149.5px;
+		top: 61.5px;
+		overflow: visible;
+	}
+	#Line_7_A4_Line_25 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_7_A4_Line_25 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 3px;
+		height: 50px;
+	}
+	#Line_8_A4_Line_26 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_8_A4_Line_26 {
+		overflow: visible;
+		position: absolute;
+		top: 24px;
+		left: 0px;
+		width: 44.595px;
+		height: 29.541px;
+	}
+	#Line_9_A4_Line_27 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_9_A4_Line_27 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 44.508px;
+		height: 27.594px;
+	}
+	#Airplane_Crashes_Into_Building {
+		opacity: 1;
+		position: absolute;
+		left: 7px;
+		top: 179px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 268px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(72,201,132,1);
+	}
+	#Like__Comment_and_Click_that_s {
+		opacity: 1;
+		position: absolute;
+		left: 7px;
+		top: 203px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 272px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(112,112,112,1);
+	}
+	#Group_8 {
+		opacity: 1;
+		position: absolute;
+		width: 341.5px;
+		height: 225px;
+		left: 17px;
+		top: 567px;
+		overflow: visible;
+	}
+	#Rectangle_1_A4_Rectangle_40 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1_A4_Rectangle_40 {
+		position: absolute;
+		overflow: visible;
+		width: 341px;
+		height: 225px;
+		left: 0px;
+		top: 0px;
+	}
+	#Line_4_A4_Line_28 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4_A4_Line_28 {
+		overflow: visible;
+		position: absolute;
+		top: 175.5px;
+		left: 0.5px;
+		width: 341px;
+		height: 1px;
+	}
+	#Group_2_A4_Group_15 {
+		opacity: 1;
+		position: absolute;
+		width: 43px;
+		height: 51px;
+		left: 149.5px;
+		top: 61.5px;
+		overflow: visible;
+	}
+	#Line_7_A4_Line_29 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_7_A4_Line_29 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 3px;
+		height: 50px;
+	}
+	#Line_8_A4_Line_30 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_8_A4_Line_30 {
+		overflow: visible;
+		position: absolute;
+		top: 24px;
+		left: 0px;
+		width: 44.595px;
+		height: 29.541px;
+	}
+	#Line_9_A4_Line_31 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(72, 201, 132);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_9_A4_Line_31 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 44.508px;
+		height: 27.594px;
+	}
+	#Dog_Chases_Tail_for_12_Minutes {
+		opacity: 1;
+		position: absolute;
+		left: 7px;
+		top: 179px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 273px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(72,201,132,1);
+	}
+	#LOL_here_s_another_funny_dog_v {
+		opacity: 1;
+		position: absolute;
+		left: 7px;
+		top: 203px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 216px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Asap;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(112,112,112,1);
+	}
+</style>
+</head>
+<body>
+<div id="Videos">
+	<svg viewBox="0 0 375 1" class="Path_1">
+		<path id="Path_1" d="M 0 0 L 218.994140625 0 L 375 0">
+		</path>
+	</svg>
+	<a href="Side_bar.html"> <div id="Group_1">
+		<svg class="Line_1">
+			<path id="Line_1" d="M 0 0 L 28 0">
+			</path>
+		</svg>
+		<svg class="Line_2">
+			<path id="Line_2" d="M 0 0 L 28 0">
+			</path>
+		</svg>
+		<svg class="Line_3">
+			<path id="Line_3" d="M 0 0 L 28 0">
+			</path>
+		</svg>
+	</div></a>
+	<div id="Videos_">
+		<span>Videos!</span>
+	</div>
+	<a href="Videos___1.html"> <div id="Group_6">
+		<svg class="Rectangle_1">
+			<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="341" height="225">
+			</rect>
+		</svg>
+		<svg class="Line_4">
+			<path id="Line_4" d="M 0 0 L 341 0">
+			</path>
+		</svg>
+		<div id="Group_2">
+			<svg class="Line_7">
+				<path id="Line_7" d="M 0 0 L 0 50">
+				</path>
+			</svg>
+			<svg class="Line_8">
+				<path id="Line_8" d="M 43 0 L 0 27">
+				</path>
+			</svg>
+			<svg class="Line_9">
+				<path id="Line_9" d="M 0 0 L 43 25">
+				</path>
+			</svg>
+		</div>
+		<div id="Keyboard_Cat">
+			<span>Keyboard Cat</span>
+		</div>
+		<div id="Yet_another_video_of_a_cat_">
+			<span>Yet another video of a cat </span>
+		</div>
+	</div> </a>
+	<a href="Videos___2.html"> <div id="Group_7">
+		<svg class="Rectangle_1_A4_Rectangle_39">
+			<rect id="Rectangle_1_A4_Rectangle_39" rx="0" ry="0" x="0" y="0" width="341" height="225">
+			</rect>
+		</svg>
+		<svg class="Line_4_A4_Line_24">
+			<path id="Line_4_A4_Line_24" d="M 0 0 L 341 0">
+			</path>
+		</svg>
+		<div id="Group_2_A4_Group_13">
+			<svg class="Line_7_A4_Line_25">
+				<path id="Line_7_A4_Line_25" d="M 0 0 L 0 50">
+				</path>
+			</svg>
+			<svg class="Line_8_A4_Line_26">
+				<path id="Line_8_A4_Line_26" d="M 43 0 L 0 27">
+				</path>
+			</svg>
+			<svg class="Line_9_A4_Line_27">
+				<path id="Line_9_A4_Line_27" d="M 0 0 L 43 25">
+				</path>
+			</svg>
+		</div>
+		<div id="Airplane_Crashes_Into_Building">
+			<span>Airplane Crashes Into Building</span>
+		</div>
+		<div id="Like__Comment_and_Click_that_s">
+			<span>Like, Comment and Click that subscribe button!</span>
+		</div>
+	</div></a>
+	<a href="Videos___3.html"> <div id="Group_8">
+		<svg class="Rectangle_1_A4_Rectangle_40">
+			<rect id="Rectangle_1_A4_Rectangle_40" rx="0" ry="0" x="0" y="0" width="341" height="225">
+			</rect>
+		</svg>
+		<svg class="Line_4_A4_Line_28">
+			<path id="Line_4_A4_Line_28" d="M 0 0 L 341 0">
+			</path>
+		</svg>
+		<div id="Group_2_A4_Group_15">
+			<svg class="Line_7_A4_Line_29">
+				<path id="Line_7_A4_Line_29" d="M 0 0 L 0 50">
+				</path>
+			</svg>
+			<svg class="Line_8_A4_Line_30">
+				<path id="Line_8_A4_Line_30" d="M 43 0 L 0 27">
+				</path>
+			</svg>
+			<svg class="Line_9_A4_Line_31">
+				<path id="Line_9_A4_Line_31" d="M 0 0 L 43 25">
+				</path>
+			</svg>
+		</div>
+		<div id="Dog_Chases_Tail_for_12_Minutes">
+			<span>Dog Chases Tail for 12 Minutes</span>
+		</div>
+		<div id="LOL_here_s_another_funny_dog_v">
+			<span>LOL here’s another funny dog video :) </span>
+		</div><
+	</div></a>
+</div>
+</body>
+</html>
