@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>index</title>
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: index;
+	}
+	#index * {
+		margin: 0;
+		padding: 0;
+	}
+	#index {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1024px;
+		height: 576px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: index;
+		--web-view-id: index;
+		--web-enable-deep-linking: true;
+	}
+	#maintext {
+		opacity: 1;
+		fill: url(#maintext_A2_Rectangle_20_pattern);
+	}
+	.maintext {
+		position: absolute;
+		overflow: visible;
+		width: 534px;
+		height: 190px;
+		left: 245px;
+		top: 193px;
+	}
+	#bright_sky {
+		opacity: 1;
+		fill: url(#bright_sky_A2_Rectangle_22_pattern);
+	}
+	.bright_sky {
+		position: absolute;
+		overflow: visible;
+		width: 335.891px;
+		height: 42.773px;
+		left: 457.695px;
+		top: 197.902px;
+	}
+</style>
+</head>
+<body>
+<div id="index">
+	<svg class="maintext">
+		<pattern elementId="maintext_A2_Rectangle_20" id="maintext_A2_Rectangle_20_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="maintext_A2_Rectangle_20_pattern.png" xlink:href="maintext_A2_Rectangle_20_pattern.png"></image>
+		</pattern>
+		<rect id="maintext" rx="0" ry="0" x="0" y="0" width="534" height="190">
+		</rect>
+	</svg>
+	<a href="indexSky.html"><svg class="bright_sky">
+		<pattern elementId="bright_sky_A2_Rectangle_22" id="bright_sky_A2_Rectangle_22_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="bright_sky_A2_Rectangle_22_pattern.png" xlink:href="bright_sky_A2_Rectangle_22_pattern.png"></image>
+		</pattern>
+		<rect id="bright_sky" rx="0" ry="0" x="0" y="0" width="335.891" height="42.773">
+		</rect>
+	</svg> </a>
+</div>
+</body>
+</html>
