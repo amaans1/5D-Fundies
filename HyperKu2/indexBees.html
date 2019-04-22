@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>HyperKu</title>
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: indexBees;
+	}
+	#indexBees * {
+		margin: 0;
+		padding: 0;
+	}
+	#indexBees {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1024px;
+		height: 576px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: indexBees;
+		--web-view-id: indexBees;
+		--web-enable-deep-linking: true;
+	}
+	#bees {
+		opacity: 1;
+		fill: url(#bees_A5_Rectangle_2_pattern);
+	}
+	.bees {
+		position: absolute;
+		overflow: visible;
+		width: 1024px;
+		height: 576px;
+		left: 0px;
+		top: 0px;
+	}
+	#bright_sky {
+		opacity: 1;
+		fill: url(#bright_sky_A5_Rectangle_4_pattern);
+	}
+	.bright_sky {
+		position: absolute;
+		overflow: visible;
+		width: 335.891px;
+		height: 42.773px;
+		left: 457.695px;
+		top: 197.902px;
+	}
+	#colourful_flowers {
+		opacity: 1;
+		fill: url(#colourful_flowers_A5_Rectangle_6_pattern);
+	}
+	.colourful_flowers {
+		position: absolute;
+		overflow: visible;
+		width: 343px;
+		height: 49px;
+		left: 392px;
+		top: 261px;
+	}
+	#bugs {
+		opacity: 1;
+		fill: url(#bugs_A5_Rectangle_8_pattern);
+	}
+	.bugs {
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		height: 36px;
+		left: 409px;
+		top: 341px;
+	}
+	#maintext {
+		opacity: 1;
+		fill: url(#maintext_A5_Rectangle_10_pattern);
+	}
+	.maintext {
+		position: absolute;
+		overflow: visible;
+		width: 572px;
+		height: 217px;
+		left: 245px;
+		top: 185px;
+	}
+	#bees_A5_Rectangle_11 {
+		opacity: 1;
+		fill: url(#bees_A5_Rectangle_12_pattern);
+	}
+	.bees_A5_Rectangle_11 {
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		height: 42px;
+		left: 632px;
+		top: 334px;
+	}
+	#startOver {
+		opacity: 1;
+		position: absolute;
+		width: 129.946px;
+		height: 31.396px;
+		left: 6px;
+		top: 537.604px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(247, 134, 28);
+		stroke-width: 3px;
+		stroke-linejoin: bevel;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 135.946px;
+		height: 37.396px;
+		left: 0px;
+		top: 0px;
+	}
+	#Start_Over {
+		opacity: 1;
+		position: absolute;
+		left: 1.744px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		color: rgba(255,255,255,1);
+	}
+</style>
+</head>
+<body>
+<div id="indexBees">
+	<svg class="bees">
+		<pattern elementId="bees_A5_Rectangle_2" id="bees_A5_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="bees_A5_Rectangle_2_pattern.gif" xlink:href="bees_A5_Rectangle_2_pattern.gif"></image>
+		</pattern>
+		<rect id="bees" rx="0" ry="0" x="0" y="0" width="1024" height="576">
+		</rect>
+	</svg>
+	<svg class="bright_sky">
+		<pattern elementId="bright_sky_A5_Rectangle_4" id="bright_sky_A5_Rectangle_4_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="bright_sky_A5_Rectangle_4_pattern.png" xlink:href="bright_sky_A5_Rectangle_4_pattern.png"></image>
+		</pattern>
+		<rect id="bright_sky" rx="0" ry="0" x="0" y="0" width="335.891" height="42.773">
+		</rect>
+	</svg>
+	<svg class="colourful_flowers">
+		<pattern elementId="colourful_flowers_A5_Rectangle_6" id="colourful_flowers_A5_Rectangle_6_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="colourful_flowers_A5_Rectangle_6_pattern.png" xlink:href="colourful_flowers_A5_Rectangle_6_pattern.png"></image>
+		</pattern>
+		<rect id="colourful_flowers" rx="0" ry="0" x="0" y="0" width="343" height="49">
+		</rect>
+	</svg>
+	<svg class="bugs">
+		<pattern elementId="bugs_A5_Rectangle_8" id="bugs_A5_Rectangle_8_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="bugs_A5_Rectangle_8_pattern.png" xlink:href="bugs_A5_Rectangle_8_pattern.png"></image>
+		</pattern>
+		<rect id="bugs" rx="0" ry="0" x="0" y="0" width="108" height="36">
+		</rect>
+	</svg>
+	<svg class="maintext">
+		<pattern elementId="maintext_A5_Rectangle_10" id="maintext_A5_Rectangle_10_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="maintext_A5_Rectangle_10_pattern.png" xlink:href="maintext_A5_Rectangle_10_pattern.png"></image>
+		</pattern>
+		<rect id="maintext" rx="0" ry="0" x="0" y="0" width="572" height="217">
+		</rect>
+	</svg>
+	<svg class="bees_A5_Rectangle_11">
+		<pattern elementId="bees_A5_Rectangle_12" id="bees_A5_Rectangle_12_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="bees_A5_Rectangle_12_pattern.png" xlink:href="bees_A5_Rectangle_12_pattern.png"></image>
+		</pattern>
+		<rect id="bees_A5_Rectangle_11" rx="0" ry="0" x="0" y="0" width="109" height="42">
+		</rect>
+	</svg>
+	<a href="index.html"><div id="startOver">
+		<svg class="Rectangle_1">
+			<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="129.946" height="31.396">
+			</rect>
+		</svg>
+		<div id="Start_Over">
+			<span>Start Over</span>
+		</div>
+	</div></a>
+</div>
+</body>
+</html>
